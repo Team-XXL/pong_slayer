@@ -1,5 +1,5 @@
 # Pong Slayer
-Here lies a smart pong player agent made in Python and trained during more than 24 hours on more than 5000 games. It's a Reiforment Learning agent made based on the Policy Gradient algorithm. The whole process is also explained in this [blog](http://karpathy.github.io/2016/05/31/rl/). Feel free to look at it to understand more about it.
+Here lies a smart pong player agent made in Python and trained during more than 24 hours on more than 5000 games. It's a Reinforcement Learning agent made based on the Policy Gradient algorithm. The whole process is also explained in this [blog](http://karpathy.github.io/2016/05/31/rl/). Feel free to look at it to understand more about it.
 
 # How to make it work ?
 
