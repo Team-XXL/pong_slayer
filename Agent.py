@@ -7,7 +7,7 @@ import pickle
 from collections import namedtuple, defaultdict
 
 
-class SmartAgent:
+class PongSlayer:
     # hyperparameters
 
     HIDDEN_LAYER = 200  # number of hidden layer neurons
