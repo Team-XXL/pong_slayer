@@ -144,7 +144,7 @@ class PongSlayer:
                     score[reward] += 1
                     msg = "\r\tEpisode {ep:6d}, own {own:2d},  enemy {enemy:2d}, total: {total: 2d}"
                     print(msg.format(ep=episode, own=score[1], enemy=score[-1], total=score[1] - score[-1]), end='')
-                self.model['TE'] += 1
+            self.model['TE'] += 1
 
             # Convert memory to a stack
             transition = self.transition_(*zip(*memory))
