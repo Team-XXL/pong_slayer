@@ -4,12 +4,12 @@ Here lies a smart pong player agent made in Python and trained during more than 
 # How to make it work ?
 
 ## Get the Requirements
-- Let's start by..I  **nstalling Python**. In case you haven't seen it yet, this repository is made in python.
+- Let's start by..  **Installing Python**. In case you haven't seen it yet, this repository is made in python.
 - After that, you can clone this repository.
 
       git clone https://github.com/6fried/pong_slayer
     
-- Now go to the directory of your local repo and run this command in your teminal
+- Now go to the directory of your local repository and run this command in your teminal
 
       python -m pip install -r requirements.txt
 
