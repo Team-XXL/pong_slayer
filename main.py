@@ -2,7 +2,7 @@
 import sys
 
 from getopt import getopt
-from Agent import SmartAgent
+from Agent import PongSlayer
 
 opts, args = getopt(sys.argv[1:], "t:e:hr", ["train=","evaluate=", "help", "resume"])
 
@@ -29,7 +29,7 @@ if len(args) == 1:
 else:
     print(f"Expecting 1 position argument, gor {len(args)}")
 
-agent = SmartAgent(game_name='ALE/Pong-v5', resume=resume, brain_path=brain_path)
+agent = PongSlayer(game_name='ALE/Pong-v5', resume=resume, brain_path=brain_path)
 
 if(train):
     agent.train(train_t)
