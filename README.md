@@ -22,14 +22,14 @@ The main goal of the repository is to showcase how the agent is made. We've also
 All the agent workflow is detailed in the main function it's clear enough to understand.
 
 ### Training existing agent with the program
-    python main.py -t [nbr-ep] path/to/the/agent/brain
+    python main.py -t [nbr_ep] path/to/the/agent/brain
 where `nbr_ep` is the number of episodes you want your agent to be trained on, and `path/to/the/agent/brain` is the path to your agent's brain file.
 
 ### Evaluate your agent
-    python main.py -e [nbr-ep] path/to/the/agent/brain
+    python main.py -e [nbr_ep] path/to/the/agent/brain
 where `nbr_ep` is the number of episodes you want your agent to be trained on, and `path/to/the/agent/brain` is the path to your agent's brain file.
 
 To do both training and evaluation, you have to add both `-t` and `-e`.
 
-    python main.py -t [nbr-ep] -e [nbr-ep] path/to/the/agent/brain
+    python main.py -t [nbr_ep] -e [nbr_ep] path/to/the/agent/brain
 If no path is specified, the program creates a new model.
